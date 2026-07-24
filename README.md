@@ -82,3 +82,42 @@ Example:
 Student s = new Student();
 
 When s is no longer needed, the Garbage Collector frees its memory automatically.
+Installing .NET
+
+You typically install:
+
+.NET SDK
+Visual Studio 2022 or Visual Studio Code
+C# extension (or C# Dev Kit in VS Code)
+
+The SDK includes the tools needed to build and run .NET applications.
+
+Creating Your First Project
+
+Using the .NET CLI:
+
+dotnet new console
+
+Run it:
+
+dotnet run
+
+Output:
+
+Hello World
+Folder Structure
+MyProject
+
+│
+├── Program.cs
+├── MyProject.csproj
+├── bin
+├── obj
+Important File
+Program.cs
+
+Starting point of the application.
+
+Example:
+
+Console.WriteLine("Hello World");
