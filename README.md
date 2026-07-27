@@ -121,3 +121,53 @@ Starting point of the application.
 Example:
 
 Console.WriteLine("Hello World");
+3. .NET Runtime
+
+The runtime provides the environment needed to execute your application.
+
+It includes:
+
+CLR
+Libraries
+Garbage Collector
+4. Class Library
+
+.NET includes thousands of built-in classes.
+
+Examples:
+
+Console.WriteLine();
+Math.Sqrt();
+File.ReadAllText();
+DateTime.Now;
+
+You don't need to write these yourself—they're already available.
+
+How .NET Executes Your Code
+
+When you write:
+
+Console.WriteLine("Hello");
+
+the process is:
+
+C# Code
+     ↓
+Compiler
+     ↓
+IL (Intermediate Language)
+     ↓
+CLR
+     ↓
+Machine Code
+     ↓
+Output on Screen
+.NET Versions
+.NET Framework
+Windows only
+Older version
+Used for maintaining legacy applications
+.NET (Modern)
+Cross-platform
+Runs on Windows, Linux, and macOS
+Recommended for new projects
