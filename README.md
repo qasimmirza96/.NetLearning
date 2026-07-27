@@ -171,3 +171,12 @@ Used for maintaining legacy applications
 Cross-platform
 Runs on Windows, Linux, and macOS
 Recommended for new projects
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Welcome to .NET!");
+    }
+}
