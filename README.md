@@ -180,3 +180,20 @@ class Program
         Console.WriteLine("Welcome to .NET!");
     }
 }
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string name = "Meerab";
+        int age = 22;
+        double cgpa = 3.5;
+        bool isStudent = true;
+
+        Console.WriteLine(name);
+        Console.WriteLine(age);
+        Console.WriteLine(cgpa);
+        Console.WriteLine(isStudent);
+    }
+}
